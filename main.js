@@ -4,3 +4,12 @@ const hat = '^';
 const hole = 'O';
 const fieldCharacter = '░';
 const pathCharacter = '*';
+
+  class Field {
+      constructor(arr){
+          this._arr = arr;
+      }
+      print(){
+          console.log(arr.join(''));
+      }
+  }
